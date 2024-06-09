@@ -1,4 +1,4 @@
-// src/data/countries.ts
+
 import { Country } from '../interfaces/Country';
 
 export const countries: Country[] = [
