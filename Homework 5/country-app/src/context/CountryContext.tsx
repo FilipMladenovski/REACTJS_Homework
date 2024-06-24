@@ -62,7 +62,7 @@ export const CountryProvider: React.FC<{ children: ReactNode }> = ({
   }, [searchQuery, countries]);
 
   useEffect(() => {
-    const top = countries.slice(0, 10); // Example: Top 10 countries based on some criteria
+    const top = countries.slice(0, 10);
     setTopDestinations(top);
   }, [countries]);
 
